@@ -1,8 +1,7 @@
 > 🌍 This document includes ***English*** 🇬🇧and ***Turkish*** 🇹🇷 sections below.
 
-| English 🇬🇧 |
-|-------------|
 
+# English 🇬🇧
 # Installation Guide — Poco X6 Pro (duchamp)
 
 > [!WARNING]
@@ -78,8 +77,7 @@ adb sideload <drag-&-drop-rom.zip>
 📢 **[Telegram Group](http://t.me/akrapchat)** 
 
 ---
-| Türkçe 🇹🇷 |
-|-------------|
+# Türkçe 🇹🇷
 
 # Kurulum Kılavuzu — Poco X6 Pro (Duchamp)
 
