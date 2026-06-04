@@ -21,7 +21,7 @@
 
 ## Clean Installation
 
-1. Download the latest **aosp_rom.zip** from the [update channel](https://t.me/akrapogluhell).
+1. Download the latest **custom_rom_duchamp.zip** from the [update channel](https://t.me/akrapogluhell).
 2. Connect your phone to PC and reboot to **fastboot** by holding both power button and volume down keys.
 3. Flash the following partitions **one by one** through powershell/terminal using:
 
@@ -98,7 +98,7 @@ adb sideload <drag-&-drop-rom.zip>
 
 ## Temiz Kurulum
 
-1. [Güncelleme kanalından](https://t.me/akrapogluhell) en son **aosp_rom.zip** dosyasını indirin.
+1. [Güncelleme kanalından](https://t.me/akrapogluhell) en son **custom_rom_duchamp.zip** dosyasını indirin.
 
 2. Telefonunuzu bilgisayara bağlayın ve güç düğmesi ile ses kısma tuşlarını aynı anda basılı tutarak **fastboot** moduna alın.
 
