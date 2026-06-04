@@ -2,7 +2,7 @@
 
 > [!WARNING]
 > - Your warranty is void.
-> - If you decide to experiment, mess something up, corrupt your storage, turn your phone into a fancy paperweight, or brick it beyond recovery — **don’t blame us**.
+> - If you decide to experiment, mess something up, **don’t blame me**.
 > - You are doing this at **your own risk** and take full responsibility for anything that may happen.
 
 > [!NOTE]
