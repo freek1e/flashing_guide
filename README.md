@@ -142,7 +142,7 @@ adb sideload <surukle-birak-rom.zip>
  2. **Apply update → Apply from ADB** seçeneğini seçin, ardından ROM'u şu komutla yükleyin:
 
 ```
-adb sideload <surukle-birak-rom.zip>`
+adb sideload <surukle-birak-rom.zip>
 ```
 
 3. Yükleme tamamlandıktan sonra, ek paketleriniz (örneğin GApps) varsa yeniden başlatmak için **YES**'i, yoksa **NO**'yu seçin.
