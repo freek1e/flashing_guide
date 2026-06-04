@@ -76,7 +76,10 @@ adb sideload <drag-&-drop-rom.zip>
 
 📢 **[Telegram Group](http://t.me/akrapchat)** 
 
----
+&nbsp;
+&nbsp;
+&nbsp;
+
 # Türkçe 🇹🇷
 
 # Kurulum Kılavuzu — Poco X6 Pro (Duchamp)
