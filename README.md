@@ -1,3 +1,6 @@
+| English 🇬🇧 |
+|-------------|
+
 # Installation Guide — Poco X6 Pro (duchamp)
 
 > [!WARNING]
@@ -42,8 +45,7 @@ fastboot reboot recovery
 adb sideload <drag-&-drop-rom.zip>
 ```
 7. After sideload completes, select **YES** to reboot if you have extra packages (i.e., GApps) to install and **NO** if you have none.
-8. Select **Factory reset → Format data/factory reset**.
-9. Select **Reboot system now**.
+8. Select **Reboot system now**.
 ---
 
 ## Update (Dirty Flash)
@@ -51,9 +53,6 @@ adb sideload <drag-&-drop-rom.zip>
 > [!NOTE]
 > Dirty flashing **will not work** for major Android version upgrades  
 > (example: **15.x → 16.x**).
-
-
-### Recovery Flash
 
 1. Reboot to **Recovery**.
 2. Select **Apply update → Apply from ADB**, then sideload the rom using:
@@ -75,3 +74,89 @@ adb sideload <drag-&-drop-rom.zip>
 ## Support / Bug Reports
 
 📢 **[Telegram Group](http://t.me/akrapchat)** 
+
+---
+| Türkçe 🇹🇷 |
+|-------------|
+
+# Kurulum Kılavuzu — Poco X6 Pro (Duchamp)
+
+> [!WARNING]
+> - Garantiniz geçersizdir.
+> - Deneme yapmaya karar verirseniz ve bir şeyleri bozarsanız, **beni suçlamayın**.
+> - Bunu **kendi sorumluluğunuzda** yapıyorsunuz ve olabilecek her şeyden tamamen siz sorumlusunuz.
+
+> [!NOTE]
+> - Cihazın **bootloader'ı açılmış** olmalıdır.
+> - Google SDK platform araçları **kurulu olmalıdır**.
+> - Yüklemeden önce **tam bir veri yedeği** alın.
+> - Şarjınızın en az **%30** olduğundan emin olun.
+> - **Yalnızca** **Poco X6 Pro (Duchamp)** için tasarlanmış dosyaları yükleyin.
+> - İlk önyükleme 5-10 dakika sürebilir. 10 dakikayı aşmadığı sürece **kabloyu çekmeyin** veya zorla yeniden başlatmayın.
+
+ ---
+
+## Temiz Kurulum
+
+1. [Kanaldan](https://t.me/akrapogluhell) en son **aosp_rom.zip** dosyasını indirin.
+
+2. Telefonunuzu bilgisayara bağlayın ve güç düğmesi ile ses kısma tuşlarını aynı anda basılı tutarak **fastboot** moduna alın.
+
+3. Aşağıdaki bölümleri **tek tek** PowerShell/terminal üzerinden şu komutları kullanarak flaşlayın:
+
+```
+fastboot flash boot <surukle-birak-boot.img>
+```
+```
+fastboot flash vendor_boot <surukle-birak-vendor_boot.img>
+```
+```
+fastboot flash init_boot <surukle-birak-init_boot.img>
+```
+4. Şu komutu kullanarak **recovery** moduna yeniden başlatın:
+
+```
+fastboot reboot recovery
+```
+5. **Factory reset → Format data/factory reset** seçeneğini seçin.
+
+ 6. **Apply update → Apply from ADB** seçeneğini seçin, ardından ROM'u şu komutla yükleyin:
+
+```
+adb sideload <surukle-birak-rom.zip>
+```
+7. Yükleme tamamlandıktan sonra, ek paketleriniz (örneğin, GApps) varsa yeniden başlatmak için **YES**'i, yoksa **NO**'yu seçin.
+
+8. **Reboot system now** seçeneğini seçin.
+
+---
+
+## Güncelleme (Dirty Flash)
+
+> [!NOTE]
+> Dirty flash, büyük Android sürüm yükseltmeleri için **çalışmaz**
+> (örnek: **15.x → 16.x**).
+
+1. **Kurtarma** moduna yeniden başlatın.
+
+ 2. **Apply update → Apply from ADB** seçeneğini seçin, ardından ROM'u şu komutla yükleyin:
+
+```
+adb sideload <surukle-birak-rom.zip>`
+```
+
+3. Yükleme tamamlandıktan sonra, ek paketleriniz (örneğin GApps) varsa yeniden başlatmak için **YES**'i, yoksa **NO**'yu seçin.
+
+4. **Reboot system now** seçeneğini seçin.
+
+---
+
+> [!IMPORTANT]
+> **Vanilla sürümler** için, **GApps her güncellemeden sonra yeniden yüklenmelidir**,
+> **OTA** ve **kurtarma tabanlı kirli flaşlamalar** dahil.
+
+---
+
+## Destek / Hata Bildirimleri
+
+📢 **[Telegram Grubu](http://t.me/akrapchat)**
