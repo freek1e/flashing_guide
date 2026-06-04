@@ -1,8 +1,9 @@
-> 🌍 This document includes ***English*** 🇬🇧and ***Turkish*** 🇹🇷 sections below.
+> 🌍 This document includes both **English 🇬🇧** and **Turkish 🇹🇷** sections.
 
 
 # English 🇬🇧
-# Installation Guide — Poco X6 Pro (duchamp)
+
+## Installation Guide — Poco X6 Pro (duchamp)
 
 > [!WARNING]
 > - Your warranty is void.
@@ -74,15 +75,13 @@ adb sideload <drag-&-drop-rom.zip>
 
 ## Support / Bug Reports
 
-📢 **[Telegram Group](http://t.me/akrapchat)** 
+📢 **[Telegram Group](https://t.me/akrapchat)** 
 
-&nbsp;
-&nbsp;
-&nbsp;
+---
 
 # Türkçe 🇹🇷
 
-# Kurulum Kılavuzu — Poco X6 Pro (Duchamp)
+## Kurulum Kılavuzu — Poco X6 Pro (Duchamp)
 
 > [!WARNING]
 > - Garantiniz geçersizdir.
@@ -108,13 +107,13 @@ adb sideload <drag-&-drop-rom.zip>
 3. Aşağıdaki bölümleri **tek tek** PowerShell/terminal üzerinden şu komutları kullanarak flaşlayın:
 
 ```
-fastboot flash boot <surukle-birak-boot.img>
+fastboot flash boot <sürükle-bırak-boot.img>
 ```
 ```
-fastboot flash vendor_boot <surukle-birak-vendor_boot.img>
+fastboot flash vendor_boot <sürükle-bırak-vendor_boot.img>
 ```
 ```
-fastboot flash init_boot <surukle-birak-init_boot.img>
+fastboot flash init_boot <sürükle-bırak-init_boot.img>
 ```
 4. Şu komutu kullanarak **recovery** moduna yeniden başlatın:
 
@@ -126,7 +125,7 @@ fastboot reboot recovery
  6. **Apply update → Apply from ADB** seçeneğini seçin, ardından ROM'u şu komutla yükleyin:
 
 ```
-adb sideload <surukle-birak-rom.zip>
+adb sideload <sürükle-bırak-rom.zip>
 ```
 7. Yükleme tamamlandıktan sonra, ek paketleriniz (örneğin, GApps) varsa yeniden başlatmak için **YES**'i, yoksa **NO**'yu seçin.
 
@@ -145,7 +144,7 @@ adb sideload <surukle-birak-rom.zip>
  2. **Apply update → Apply from ADB** seçeneğini seçin, ardından ROM'u şu komutla yükleyin:
 
 ```
-adb sideload <surukle-birak-rom.zip>
+adb sideload <sürükle-bırak-rom.zip>
 ```
 
 3. Yükleme tamamlandıktan sonra, ek paketleriniz (örneğin GApps) varsa yeniden başlatmak için **YES**'i, yoksa **NO**'yu seçin.
@@ -162,4 +161,4 @@ adb sideload <surukle-birak-rom.zip>
 
 ## Destek / Hata Bildirimleri
 
-📢 **[Telegram Grubu](http://t.me/akrapchat)**
+📢 **[Telegram Grubu](https://t.me/akrapchat)**
