@@ -1,6 +1,5 @@
 > 🌍 This document includes both **English 🇬🇧** and **Turkish 🇹🇷** sections.
 
-
 # English 🇬🇧
 
 ## Installation Guide — Poco X6 Pro (duchamp)
@@ -71,7 +70,6 @@ adb sideload <drag-&-drop-rom.zip>
 > For **vanilla builds**, **GApps must be reflashed after every update**,  
 > including **OTA** and **recovery-based dirty flashes**.
 
----
 
 ## Support / Bug Reports
 
